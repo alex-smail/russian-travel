@@ -23,8 +23,8 @@
 }
 
 /*MEDIA 320PX*/
-@media all and (max-width: 768px){
+@media all and (max-width: 400px){
     .header {
-        margin: 16px 16px 48px 16px;
+        margin: 16px 16px 33px 16px;
     }
 }

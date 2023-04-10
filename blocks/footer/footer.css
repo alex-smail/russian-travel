@@ -8,14 +8,14 @@
 }
 
 /*MEDIA 1024PX*/
-@media all and (max-width: 1024px){
+@media all and (max-width: 1024px) {
    .footer {
         max-width: 928px;
    }
 }
 
 /*MEDIA 768PX*/
-@media all and (max-width: 768px){
+@media all and (max-width: 768px) {
    .footer {
         max-width: 720px;
         margin: 0 24px;
@@ -23,7 +23,7 @@
 }
 
 /*MEDIA 320PX*/
-@media all and (max-width: 320px){
+@media all and (min-width: 320px) and (max-width: 550px) {
    .footer {
         max-width: 186px;
         margin: 0 118px 24px 16px;

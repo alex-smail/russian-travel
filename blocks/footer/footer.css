@@ -1,0 +1,32 @@
+.footer {
+    max-width: 1184px;
+    margin: 0 48px;
+    padding-bottom: 24px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/*MEDIA 1024PX*/
+@media all and (max-width: 1024px){
+   .footer {
+        max-width: 928px;
+   }
+}
+
+/*MEDIA 768PX*/
+@media all and (max-width: 768px){
+   .footer {
+        max-width: 720px;
+        margin: 0 24px;
+   }
+}
+
+/*MEDIA 320PX*/
+@media all and (max-width: 320px){
+   .footer {
+        max-width: 186px;
+        margin: 0 118px 24px 16px;
+        flex-direction: column;
+   }
+}

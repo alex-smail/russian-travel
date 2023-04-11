@@ -18,7 +18,7 @@
 }
 
 /*MEDIA 1024PX*/
-@media all and (max-width: 1024px){
+@media all and (max-width: 1024px) {
    .place__paragraph {
        max-width: 453px;
     }
@@ -28,7 +28,7 @@
 }
 
 /*MEDIA 768PX*/
-@media all and (max-width: 768px){
+@media all and (max-width: 768px) {
    .place__paragraph {
         max-width: 352px;
         font-size: 16px;
@@ -36,7 +36,7 @@
 }
 
 /*MEDIA 320PX*/
-@media all and (max-width: 320px){
+@media all and (min-width: 320px) and (max-width: 624px) {
    .place__paragraph {
         grid-row: 4/5;
         grid-column: 1/2;

@@ -13,7 +13,7 @@
 }
 
 /*MEDIA 1024PX*/
-@media all and (max-width: 1024px){
+@media all and (max-width: 1024px) {
     .place {
         grid-column-gap: 32px;
         grid-row-gap: 27px;
@@ -22,7 +22,7 @@
 }
 
 /*MEDIA 768PX*/
-@media all and (max-width: 768px){
+@media all and (max-width: 768px) {
    .place {
         max-width: 720px;
         grid-column-gap: 28px;
@@ -31,7 +31,7 @@
 }
 
 /*MEDIA 320PX*/
-@media all and (max-width: 320px){
+@media all and (min-width: 320px) and (max-width: 624px) {
    .place {
         max-width: 320px;
         grid-column-gap: 0;
